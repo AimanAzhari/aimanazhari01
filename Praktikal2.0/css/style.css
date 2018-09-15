@@ -1,0 +1,124 @@
+@charset "utf-8"
+
+body {
+    font-family:Arial,Helvetica,sans-serif; 
+    margin:0px;
+    background-image: url(../image/pb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+@media only {
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#111111;
+}
+}
+#media{
+    object-position: center;
+    
+    
+}
+#text{
+    text-align: center;
+    
+}
+table{
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+th,td{
+    font-family: monospace;
+    font-size: 30;
+    
+}
+#section1{
+    background-color: orange;
+    
+}
+#section2{
+    background-color:sienna;
+}
+#section3{
+    background-color: pink;
+}
+#section4{
+    background-color: aqua;
+}
+#section5{
+    background-color: darkslateblue;
+    
+}
+#section6{
+    background-color: red;
+}
+#li{
+    float: none; 
+    list-style-type: circle;
+    font-size: 30px;
+    
+}
+#ul{
+    text-align: center;
+    background-color: sienna;
+    list-style-type: square;
+    list-style-position: inside;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40;
+}
+#ul1{
+    text-align: center;
+    background-color: pink;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#table1{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%; 
+    background-color: aquamarine;
+    
+}
+#ul2{
+    text-align: center;
+    background-color: aquamarine;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#table2{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;  
+    background-color: darkblue;
+}
+p{  
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+footer{
+    background-color: peachpuff;
+    
+}
