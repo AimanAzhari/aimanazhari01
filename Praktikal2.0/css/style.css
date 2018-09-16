@@ -22,7 +22,7 @@ ul{
     background-color: #333333;
 }
 li{
-    float:left;
+    float:none;
 }
 li a{
     display: block;
@@ -126,6 +126,18 @@ footer{
     background-color: peachpuff;
     
 }
+    header{
+        background-color: brown;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    header{
+        background-image: url(../image/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
 }
 /* smortphone*/
 @media only screen and (max-width:360px){
@@ -260,5 +272,164 @@ footer{
     }
     body{
         width: 360px;
+    }
+    header{
+        background-color: brown;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    header{
+        background-image: url(../image/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+nav{
+    position:absolute;
+    width: 768px;
+    }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float:none;
+    font-size: 20px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#111111;
+}
+#media{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#text{
+    text-align: center;
+    
+}
+table{
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 15%;
+
+    
+}
+th,td,ul{
+    font-family: monospace;
+    font-size: 25px;
+    
+}
+#section1{
+    background-color: orange;
+    width: 100%;
+}
+#section2{
+    background-color:sienna;
+    width: 100%;
+}
+#section3{
+    background-color: pink;
+    width: 100%;
+}
+#section4{
+    background-color: aqua;
+    width: 100%;
+}
+#section5{
+    background-color: darkslateblue;
+    width: 100%;
+    
+}
+#section6{
+    background-color: red;
+    width: 100%;
+}
+#li{
+    float: none; 
+    list-style-type: circle;
+    font-size: 25px;
+    
+}
+#ul{
+    text-align: center;
+    background-color: sienna;
+    list-style-type: square;
+    list-style-position: inside;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50;
+}
+#ul1{
+    text-align: center;
+    background-color: pink;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#table1{
+    border: 2px solid black;
+    margin-right: 40%;
+    margin-left: 5%;
+    background-color: aquamarine;
+    width: 70%;
+    
+}
+#ul2{
+    text-align: center;
+    background-color: aquamarine;
+    list-style-type: square;
+    list-style-position: inside;
+}
+#table2{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;  
+    background-color: darkblue;
+}
+p{  
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+footer{
+    background-color: peachpuff;
+    
+}
+#a1{
+        position: fixed;
+    }
+    body{
+        width: 768px;
+    }
+    header{
+        background-color: brown;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    header{
+        background-image: url(../image/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
 }
